@@ -1,0 +1,78 @@
+{
+	"@context": {
+		"schema": "http://schema.org/",
+		"xsd": "http://w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"linkml": "https://w3id.org/linkml/",
+		"bts": "http://schema.biothings.io/"
+	},
+	"@graph": [
+		{
+			"@id": "bts:autoradiography",
+			"@type": "rdfs:class",
+			"rdfs:comment": "aaaA radioactivity detection technique using X- ray film to visualize molecules or fragments of molecules that have been radioactively labeled.",
+			"rdfs:label": "autoradiography",
+			"schema:isPartOf" : {
+			  "@id" : "http://schema.biothings.io/"
+			},
+			"rdfs:subClassOf": [],
+			"sms:displayName": "autoradiography",
+			"sms:validationRules": ["rule1","rule2"]
+		},
+		{
+			"@id": "bts:HarvardUniversity2",
+			"@type": "rdfs:class",
+			"rdfs:label": "HarvardUniversity",
+			"schema:isPartOf" : {
+			  "@id" : "http://schema.biothings.io/"
+			},
+			"rdfs:subClassOf": [],
+			"sms:required": "sms:true",
+			"sms:displayName": "Harvard University",
+			"sms:test": "Harvard University"
+		},
+		{
+			"@id": "bts:Pythonscript",
+			"@type": "rdfs:class",
+			"rdfs:comment": "Python script with expected extension “.py”.",
+			"rdfs:label": "Pythonscript",
+			"rdfs:subClassOf": [{
+				"@id" : "bts:autoradiography"
+			}],
+			"sms:required": "sms:false",
+			"sms:displayName": "Python script"
+		},
+		{
+			"@id": "bts:Conda",
+			"@type": "rdf:property",
+			"rdfs:comment": "package manager",
+			"rdfs:label": "Conda",
+			"schema:domainIncludes": [{
+				"@id" : "bts:Pythonscript"
+			}],
+			"sms:required": "sms:false",
+			"sms:displayName": "Conda"
+		},
+		{
+			"@id": "bts:ProgrammingLanguages",
+			"@type": "rdfs:Class",
+			"rdfs:comment": "Programming Languages comment",
+			"rdfs:label": "Programming Languages lbl",
+			"rdfs:subClassOf": [{
+				"@id" : "schema:enumeration"
+			}],
+			"sms:required": "sms:false",
+			"sms:displayName": "Programming Languages"
+		},
+		{
+			"@id": "bts:C#",
+			"@type": "bts:ProgrammingLanguages",
+			"rdfs:comment": "C# comment",
+			"rdfs:label": "C# lbl",
+			"sms:required": "sms:false",
+			"sms:displayName": "C# display",
+			"sms:nullproperty": ""
+		}
+	]
+}
