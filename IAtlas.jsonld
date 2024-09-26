@@ -4479,7 +4479,7 @@
     {
       "@id": "bts:C2",
       "@type": "rdfs:Class",
-      "rdfs:comment": "TBD C2",
+      "rdfs:comment": "TBD",
       "rdfs:label": "C2",
       "rdfs:subClassOf": [
         {
