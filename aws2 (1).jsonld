@@ -1,0 +1,429 @@
+{
+  "@context": {
+    "name": "http://rdf.data-vocabulary.org/#name",
+    "ingredient": "http://rdf.data-vocabulary.org/#ingredients",
+    "yield": "http://rdf.data-vocabulary.org/#yield",
+    "instructions": "http://rdf.data-vocabulary.org/#instructions",
+    "step": {
+      "@id": "http://rdf.data-vocabulary.org/#step",
+      "@type": "xsd:integer"
+    },
+    "description": "http://rdf.data-vocabulary.org/#description",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@type": "http://schema.org/ItemList",
+  "http://schema.org/itemListElement": [
+    {
+      "@type": "http://schema.org/ItemList",
+      "http://schema.org/itemListElement": [
+        {
+          "@type": "http://schema.org/ListItem",
+          "http://schema.org/itemListElement": {
+            "@type": "http://schema.org/ListItem",
+            "http://schema.org/name": "Naming Rules",
+            "http://schema.org/position": 1
+          },
+          "http://schema.org/name": "Buckets",
+          "http://schema.org/position": 1
+        },
+        {
+          "@type": "http://schema.org/ListItem",
+          "http://schema.org/itemListElement": [
+            {
+              "@type": "http://schema.org/ListItem",
+              "http://schema.org/name": "Importing Objects",
+              "http://schema.org/position": 1
+            },
+            {
+              "@type": "http://schema.org/ListItem",
+              "http://schema.org/name": "Listing Objects",
+              "http://schema.org/position": 2
+            },
+            {
+              "@type": "http://schema.org/ListItem",
+              "http://schema.org/name": "Object Storage",
+              "http://schema.org/position": 3
+            },
+            {
+              "@type": "http://schema.org/ListItem",
+              "http://schema.org/name": "Multipart Uploads",
+              "http://schema.org/position": 4
+            },
+            {
+              "@type": "http://schema.org/ListItem",
+              "http://schema.org/name": "Object Tags and Metadata",
+              "http://schema.org/position": 5
+            }
+          ],
+          "http://schema.org/name": "Objects",
+          "http://schema.org/position": 2
+        }
+      ],
+      "http://schema.org/name": "Amazon S3 Concepts"
+    },
+    {
+      "@type": "http://schema.org/ItemList",
+      "http://schema.org/itemListElement": [
+        {
+          "@type": "http://schema.org/ItemList",
+          "http://schema.org/itemListElement": [
+            {
+              "@type": "http://schema.org/ListItem",
+              "http://schema.org/name": "Creating Buckets",
+              "http://schema.org/position": 1
+            },
+            {
+              "@type": "http://schema.org/ListItem",
+              "http://schema.org/name": "Listing Buckets",
+              "http://schema.org/position": 2
+            },
+            {
+              "@type": "http://schema.org/ListItem",
+              "http://schema.org/itemListElement": {
+                "@type": "http://schema.org/ListItem",
+                "http://schema.org/name": "Condition Keys",
+                "http://schema.org/position": 1
+              },
+              "http://schema.org/name": "Bucket Policies",
+              "http://schema.org/position": 3
+            },
+            {
+              "@type": "http://schema.org/ListItem",
+              "http://schema.org/name": "Bucket Logging",
+              "http://schema.org/position": 4
+            },
+            {
+              "@type": "http://schema.org/ListItem",
+              "http://schema.org/name": "Bucket Notifications",
+              "http://schema.org/position": 5
+            },
+            {
+              "@type": "http://schema.org/ListItem",
+              "http://schema.org/name": "Bucket Replication",
+              "http://schema.org/position": 6
+            },
+            {
+              "@type": "http://schema.org/ListItem",
+              "http://schema.org/name": "Bucket Versioning",
+              "http://schema.org/position": 7
+            }
+          ],
+          "http://schema.org/name": "Bucket Operations"
+        },
+        {
+          "@type": "http://schema.org/ItemList",
+          "http://schema.org/itemListElement": [
+            {
+              "@type": "http://schema.org/ListItem",
+              "http://schema.org/itemListElement": {
+                "@type": "http://schema.org/ListItem",
+                "http://schema.org/itemListElement": {
+                  "@type": "http://schema.org/ListItem",
+                  "http://schema.org/name": "Abort Multipart Uploads",
+                  "http://schema.org/position": 1
+                },
+                "http://schema.org/name": "Multipart Uploads",
+                "http://schema.org/position": 1
+              },
+              "http://schema.org/name": "Uploading Objects",
+              "http://schema.org/position": 1
+            },
+            {
+              "@type": "http://schema.org/ListItem",
+              "http://schema.org/name": "Downloading Objects",
+              "http://schema.org/position": 2
+            },
+            {
+              "@type": "http://schema.org/ListItem",
+              "http://schema.org/name": "Deleting Objects",
+              "http://schema.org/position": 3
+            },
+            {
+              "@type": "http://schema.org/ListItem",
+              "http://schema.org/itemListElement": {
+                "@type": "http://schema.org/ListItem",
+                "http://schema.org/name": "ListObjectsV2",
+                "http://schema.org/position": 1
+              },
+              "http://schema.org/name": "Listing Objects",
+              "http://schema.org/position": 4
+            },
+            {
+              "@type": "http://schema.org/ListItem",
+              "http://schema.org/name": "Object Lock",
+              "http://schema.org/position": 5
+            },
+            {
+              "@type": "http://schema.org/ListItem",
+              "http://schema.org/name": "Object Lifecycle Management",
+              "http://schema.org/position": 6
+            },
+            {
+              "@type": "http://schema.org/ListItem",
+              "http://schema.org/name": "Object Restore",
+              "http://schema.org/position": 7
+            }
+          ],
+          "http://schema.org/name": "Object Operations"
+        }
+      ],
+      "http://schema.org/name": "Amazon S3 Operations"
+    },
+    {
+      "@type": "http://schema.org/ItemList",
+      "http://schema.org/itemListElement": [
+        {
+          "@type": "http://schema.org/ListItem",
+          "http://schema.org/itemListElement": [
+            {
+              "@type": "http://schema.org/ListItem",
+              "http://schema.org/name": "IAM Policies",
+              "http://schema.org/position": 1
+            },
+            {
+              "@type": "http://schema.org/ListItem",
+              "http://schema.org/name": "IAM Roles",
+              "http://schema.org/position": 2
+            }
+          ],
+          "http://schema.org/name": "Identity and Access Management (IAM)",
+          "http://schema.org/position": 1
+        },
+        {
+          "@type": "http://schema.org/ListItem",
+          "http://schema.org/name": "Access Control Lists (ACLs)",
+          "http://schema.org/position": 2
+        },
+        {
+          "@type": "http://schema.org/ListItem",
+          "http://schema.org/itemListElement": [
+            {
+              "@type": "http://schema.org/ListItem",
+              "http://schema.org/name": "Example Policies",
+              "http://schema.org/position": 1
+            },
+            {
+              "@type": "http://schema.org/ListItem",
+              "http://schema.org/name": "Condition Keys",
+              "http://schema.org/position": 2
+            }
+          ],
+          "http://schema.org/name": "Bucket Policies",
+          "http://schema.org/position": 3
+        },
+        {
+          "@type": "http://schema.org/ListItem",
+          "http://schema.org/itemListElement": [
+            {
+              "@type": "http://schema.org/ListItem",
+              "http://schema.org/name": "Server-Side Encryption",
+              "http://schema.org/position": 1
+            },
+            {
+              "@type": "http://schema.org/ListItem",
+              "http://schema.org/name": "Client-Side Encryption",
+              "http://schema.org/position": 2
+            }
+          ],
+          "http://schema.org/name": "Encryption",
+          "http://schema.org/position": 4
+        }
+      ],
+      "http://schema.org/name": "Security and Access Management"
+    },
+    {
+      "@type": "http://schema.org/ItemList",
+      "http://schema.org/itemListElement": [
+        {
+          "@type": "http://schema.org/ListItem",
+          "http://schema.org/itemListElement": [
+            {
+              "@type": "http://schema.org/ListItem",
+              "http://schema.org/name": "Bucket Logging",
+              "http://schema.org/position": 1
+            },
+            {
+              "@type": "http://schema.org/ListItem",
+              "http://schema.org/name": "Access Logs",
+              "http://schema.org/position": 2
+            }
+          ],
+          "http://schema.org/name": "S3 Logs",
+          "http://schema.org/position": 1
+        },
+        {
+          "@type": "http://schema.org/ListItem",
+          "http://schema.org/itemListElement": {
+            "@type": "http://schema.org/ListItem",
+            "http://schema.org/name": "CloudWatch Integration",
+            "http://schema.org/position": 1
+          },
+          "http://schema.org/name": "Metrics and Alarms",
+          "http://schema.org/position": 2
+        }
+      ],
+      "http://schema.org/name": "Monitoring and Logging"
+    },
+    {
+      "@type": "http://schema.org/ItemList",
+      "http://schema.org/itemListElement": {
+        "@type": "http://schema.org/ListItem",
+        "http://schema.org/itemListElement": [
+          {
+            "@type": "http://schema.org/ListItem",
+            "http://schema.org/name": "Billing Errors",
+            "http://schema.org/position": 1
+          },
+          {
+            "@type": "http://schema.org/ListItem",
+            "http://schema.org/name": "Access Denied Errors",
+            "http://schema.org/position": 2
+          },
+          {
+            "@type": "http://schema.org/ListItem",
+            "http://schema.org/name": "Not Found Errors",
+            "http://schema.org/position": 3
+          }
+        ],
+        "http://schema.org/name": "Common Error Codes",
+        "http://schema.org/position": 1
+      },
+      "http://schema.org/name": "Error Handling"
+    },
+    {
+      "@type": "http://schema.org/ItemList",
+      "http://schema.org/itemListElement": [
+        {
+          "@type": "http://schema.org/ListItem",
+          "http://schema.org/itemListElement": [
+            {
+              "@type": "http://schema.org/ListItem",
+              "http://schema.org/name": "Import/Export",
+              "http://schema.org/position": 1
+            },
+            {
+              "@type": "http://schema.org/ListItem",
+              "http://schema.org/name": "Transfer Acceleration",
+              "http://schema.org/position": 2
+            }
+          ],
+          "http://schema.org/name": "Data Transfer",
+          "http://schema.org/position": 1
+        },
+        {
+          "@type": "http://schema.org/ListItem",
+          "http://schema.org/itemListElement": [
+            {
+              "@type": "http://schema.org/ListItem",
+              "http://schema.org/name": "Standard Retrieval",
+              "http://schema.org/position": 1
+            },
+            {
+              "@type": "http://schema.org/ListItem",
+              "http://schema.org/name": "Bulk Retrieval",
+              "http://schema.org/position": 2
+            },
+            {
+              "@type": "http://schema.org/ListItem",
+              "http://schema.org/name": "Expedited Retrieval",
+              "http://schema.org/position": 3
+            }
+          ],
+          "http://schema.org/name": "Data Retrieval",
+          "http://schema.org/position": 2
+        }
+      ],
+      "http://schema.org/name": "Data Management"
+    },
+    {
+      "@type": "http://schema.org/ItemList",
+      "http://schema.org/itemListElement": {
+        "@type": "http://schema.org/ListItem",
+        "http://schema.org/itemListElement": [
+          {
+            "@type": "http://schema.org/ListItem",
+            "http://schema.org/name": "Storage Pricing",
+            "http://schema.org/position": 1
+          },
+          {
+            "@type": "http://schema.org/ListItem",
+            "http://schema.org/name": "Data Transfer Pricing",
+            "http://schema.org/position": 2
+          },
+          {
+            "@type": "http://schema.org/ListItem",
+            "http://schema.org/name": "Request Pricing",
+            "http://schema.org/position": 3
+          }
+        ],
+        "http://schema.org/name": "S3 Pricing",
+        "http://schema.org/position": 1
+      },
+      "http://schema.org/name": "Cost Management"
+    },
+    {
+      "@type": "http://schema.org/ItemList",
+      "http://schema.org/itemListElement": [
+        {
+          "@type": "http://schema.org/ListItem",
+          "http://schema.org/name": "Data Privacy",
+          "http://schema.org/position": 1
+        },
+        {
+          "@type": "http://schema.org/ListItem",
+          "http://schema.org/name": "Audit Logs",
+          "http://schema.org/position": 2
+        },
+        {
+          "@type": "http://schema.org/ListItem",
+          "http://schema.org/name": "Compliance Programs",
+          "http://schema.org/position": 3
+        }
+      ],
+      "http://schema.org/name": "Compliance and Governance"
+    },
+    {
+      "@type": "http://schema.org/ItemList",
+      "http://schema.org/itemListElement": [
+        {
+          "@type": "http://schema.org/ListItem",
+          "http://schema.org/name": "S3 Select",
+          "http://schema.org/position": 1
+        },
+        {
+          "@type": "http://schema.org/ListItem",
+          "http://schema.org/name": "S3 Object Lambda",
+          "http://schema.org/position": 2
+        },
+        {
+          "@type": "http://schema.org/ListItem",
+          "http://schema.org/name": "S3 Intelligent-Tiering",
+          "http://schema.org/position": 3
+        }
+      ],
+      "http://schema.org/name": "Advanced Features"
+    },
+    {
+      "@type": "http://schema.org/ItemList",
+      "http://schema.org/itemListElement": [
+        {
+          "@type": "http://schema.org/ListItem",
+          "http://schema.org/name": "Performance Optimization",
+          "http://schema.org/position": 1
+        },
+        {
+          "@type": "http://schema.org/ListItem",
+          "http://schema.org/name": "Security Best Practices",
+          "http://schema.org/position": 2
+        },
+        {
+          "@type": "http://schema.org/ListItem",
+          "http://schema.org/name": "Cost Optimization",
+          "http://schema.org/position": 3
+        }
+      ],
+      "http://schema.org/name": "Best Practices"
+    }
+  ],
+  "http://schema.org/name": "Amazon S3 Taxonomy"
+}
