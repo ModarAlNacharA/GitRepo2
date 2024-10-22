@@ -1460,7 +1460,7 @@
       "schema:isPartOf": {
         "@id": "http://schema.biothings.io"
       },
-      "sms:displayName": "Del",
+      "sms:displayName": "Del aa",
       "sms:required": "sms:false"
     },
     {
