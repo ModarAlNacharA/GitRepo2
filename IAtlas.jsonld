@@ -866,7 +866,7 @@
     {
       "@id": "bts:Group",
       "@type": "rdfs:Class",
-      "rdfs:comment": "TBD",
+      "rdfs:comment": "TBD aa",
       "rdfs:label": "Group",
       "rdfs:subClassOf": [
         {
