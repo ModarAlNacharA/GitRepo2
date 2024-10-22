@@ -1467,7 +1467,7 @@
       "@id": "bts:C1",
       "@type": "rdfs:Class",
       "rdfs:comment": "TBD",
-      "rdfs:label": "C1",
+      "rdfs:label": "C1 label",
       "rdfs:subClassOf": [
         {
           "@id": "bts:ecaviarPp"
