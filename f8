@@ -64,11 +64,13 @@
       "sms:required": "sms:false",
       "sms:displayName": "C# display"
     },
-    {},
+    {
+      "@id": "bts:tt"
+    },
     {
       "@id": "bts:HarvardUniversity2",
       "@type": "rdfs:class",
-      "rdfs:label": "HarvardUniversity",
+      "rdfs:label": "HarvardUniversity 22",
       "schema:isPartOf": {
         "@id": "http://schema.biothings.io/"
       },
