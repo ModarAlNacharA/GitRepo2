@@ -23,6 +23,16 @@
       ]
     },
     {
+      "@id": "bts:HarvardUniversity2",
+      "@type": "rdfs:class",
+      "rdfs:label": "HarvardUniversity",
+      "schema:isPartOf": {
+        "@id": "http://schema.biothings.io/"
+      },
+      "sms:required": "sms:true",
+      "sms:displayName": "Harvard University"
+    },
+    {
       "@id": "bts:Pythonscript",
       "@type": "rdfs:class",
       "rdfs:comment": "Python script with expected extension “.py”.",
@@ -63,19 +73,6 @@
       "rdfs:label": "C# lbl",
       "sms:required": "sms:false",
       "sms:displayName": "C# display"
-    },
-    {
-      "@id": "bts:tt"
-    },
-    {
-      "@id": "bts:HarvardUniversity2",
-      "@type": "rdfs:class",
-      "rdfs:label": "HarvardUniversity 22",
-      "schema:isPartOf": {
-        "@id": "http://schema.biothings.io/"
-      },
-      "sms:required": "sms:true",
-      "sms:displayName": "Harvard University"
     }
   ]
 }
