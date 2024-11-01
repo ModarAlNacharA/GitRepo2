@@ -9089,7 +9089,7 @@
           "@id": "bts:NotApplicable"
         }
       ],
-      "sms:displayName": "diagnosis 11",
+      "sms:displayName": "diagnosis",
       "sms:required": "sms:true"
     },
     {
@@ -22234,6 +22234,38 @@
       "sms:required": "sms:false"
     },
     {
+      "@id": "bts:HS02",
+      "@type": "rdfs:Class",
+      "rdfs:comment": "TBD",
+      "rdfs:label": "HS02",
+      "rdfs:subClassOf": [
+        {
+          "@id": "bts:ModelSystemName"
+        }
+      ],
+      "schema:isPartOf": {
+        "@id": "http://schema.biothings.io"
+      },
+      "sms:displayName": "HS02",
+      "sms:required": "sms:false"
+    },
+    {
+      "@id": "bts:HS05",
+      "@type": "rdfs:Class",
+      "rdfs:comment": "TBD",
+      "rdfs:label": "HS05",
+      "rdfs:subClassOf": [
+        {
+          "@id": "bts:ModelSystemName"
+        }
+      ],
+      "schema:isPartOf": {
+        "@id": "http://schema.biothings.io"
+      },
+      "sms:displayName": "HS05",
+      "sms:required": "sms:false"
+    },
+    {
       "@id": "bts:B6;129S2-Trp53tm1TyjNf1tm1Tyj/J",
       "@type": "rdfs:Class",
       "rdfs:comment": "TBD",
@@ -26944,6 +26976,25 @@
       "sms:required": "sms:false"
     },
     {
+      "@id": "bts:DiffusionMRI",
+      "@type": "rdfs:Class",
+      "rdfs:comment": "TBD",
+      "rdfs:label": "DiffusionMRI",
+      "rdfs:subClassOf": [
+        {
+          "@id": "bts:ProtocolAssay"
+        },
+        {
+          "@id": "bts:Assay"
+        }
+      ],
+      "schema:isPartOf": {
+        "@id": "http://schema.biothings.io"
+      },
+      "sms:displayName": "diffusion MRI",
+      "sms:required": "sms:false"
+    },
+    {
       "@id": "bts:Distortionproductotoacousticemissions",
       "@type": "rdfs:Class",
       "rdfs:comment": "TBD",
@@ -28692,6 +28743,25 @@
       "sms:required": "sms:false"
     },
     {
+      "@id": "bts:Magneticresonanceangiography",
+      "@type": "rdfs:Class",
+      "rdfs:comment": "TBD",
+      "rdfs:label": "Magneticresonanceangiography",
+      "rdfs:subClassOf": [
+        {
+          "@id": "bts:ProtocolAssay"
+        },
+        {
+          "@id": "bts:Assay"
+        }
+      ],
+      "schema:isPartOf": {
+        "@id": "http://schema.biothings.io"
+      },
+      "sms:displayName": "magnetic resonance angiography",
+      "sms:required": "sms:false"
+    },
+    {
       "@id": "bts:Magneticresonancespectroscopy",
       "@type": "rdfs:Class",
       "rdfs:comment": "TBD",
@@ -28708,6 +28778,25 @@
         "@id": "http://schema.biothings.io"
       },
       "sms:displayName": "magnetic resonance spectroscopy",
+      "sms:required": "sms:false"
+    },
+    {
+      "@id": "bts:Magnetization-PreparedRapidGradientEchoMRI",
+      "@type": "rdfs:Class",
+      "rdfs:comment": "TBD",
+      "rdfs:label": "Magnetization-PreparedRapidGradientEchoMRI",
+      "rdfs:subClassOf": [
+        {
+          "@id": "bts:ProtocolAssay"
+        },
+        {
+          "@id": "bts:Assay"
+        }
+      ],
+      "schema:isPartOf": {
+        "@id": "http://schema.biothings.io"
+      },
+      "sms:displayName": "Magnetization-Prepared Rapid Gradient Echo MRI",
       "sms:required": "sms:false"
     },
     {
@@ -29319,6 +29408,25 @@
       "sms:required": "sms:false"
     },
     {
+      "@id": "bts:Puretoneaverage",
+      "@type": "rdfs:Class",
+      "rdfs:comment": "TBD",
+      "rdfs:label": "Puretoneaverage",
+      "rdfs:subClassOf": [
+        {
+          "@id": "bts:ProtocolAssay"
+        },
+        {
+          "@id": "bts:Assay"
+        }
+      ],
+      "schema:isPartOf": {
+        "@id": "http://schema.biothings.io"
+      },
+      "sms:displayName": "pure tone average",
+      "sms:required": "sms:false"
+    },
+    {
       "@id": "bts:QuantitativePCR",
       "@type": "rdfs:Class",
       "rdfs:comment": "TBD",
@@ -29870,6 +29978,25 @@
         "@id": "http://schema.biothings.io"
       },
       "sms:displayName": "whole-cell patch clamp",
+      "sms:required": "sms:false"
+    },
+    {
+      "@id": "bts:Wordrecognitionscore",
+      "@type": "rdfs:Class",
+      "rdfs:comment": "TBD",
+      "rdfs:label": "Wordrecognitionscore",
+      "rdfs:subClassOf": [
+        {
+          "@id": "bts:ProtocolAssay"
+        },
+        {
+          "@id": "bts:Assay"
+        }
+      ],
+      "schema:isPartOf": {
+        "@id": "http://schema.biothings.io"
+      },
+      "sms:displayName": "word recognition score",
       "sms:required": "sms:false"
     },
     {
