@@ -33,6 +33,9 @@
       ],
       "sms:requiresDependency": [
         {
+          "@id": "bts:id"
+        },
+        {
           "@id": "bts:Component"
         },
         {
@@ -40,9 +43,6 @@
         },
         {
           "@id": "bts:tagId"
-        },
-        {
-          "@id": "bts:id"
         }
       ]
     },
