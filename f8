@@ -12,7 +12,7 @@
       "@id": "bts:autoradiography",
       "@type": "rdfs:class",
       "rdfs:comment": "aaaA radioactivity detection technique using X- ray film to visualize molecules or fragments of molecules that have been radioactively labeled.",
-      "rdfs:label": "autoradiography",
+      "rdfs:label": "autoradiography 123",
       "schema:isPartOf": {
         "@id": "http://schema.biothings.io/"
       },
