@@ -73,13 +73,6 @@
       "rdfs:label": "C# lbl",
       "sms:required": "sms:false",
       "sms:displayName": "C# display"
-    },
-    {
-      "@id": "ccc"
-    },
-    {
-      "@id": "ccc"
-    },
-    {}
+    }
   ]
 }
