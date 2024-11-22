@@ -17,7 +17,7 @@
 			"@id": "sampleElement1",
 			"@type": "rdf:property",
 			"rdfs:comment": "This is a sample json-ld object that will be considered an element due to having the rdf:property value in the @type property, it will also connect to sampleType1 due to having the domainIncludes",
-			"rdfs:label": "Sample Element 1",
+			"rdfs:label": "Sample Element",
 			"schema:domainIncludes": [{
 				"@id" : "sampleType1"
 			}],
