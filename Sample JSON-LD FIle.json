@@ -57,7 +57,7 @@
 			"rdfs:label": "Sample Taxonomy Child",
 			"rdfs:subClassOf": [{
 				"@id" : "schema:DataType"
-			}],
+			}]
 		}
 	]
 }
