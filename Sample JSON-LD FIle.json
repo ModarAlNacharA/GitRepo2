@@ -54,7 +54,7 @@
 			"@id": "sampleDataType",
 			"@type": "rdfs:class",
 			"rdfs:comment": "This is a sample json-ld object that will be considered a data type due to having the rdfs:class value in the @type property AND the schema:DataType in the subClassOf",
-			"rdfs:label": "Sample Taxonomy Child",
+			"rdfs:label": "Sample Datatype Child",
 			"rdfs:subClassOf": [{
 				"@id" : "schema:DataType"
 			}]
