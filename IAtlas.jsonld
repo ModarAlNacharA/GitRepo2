@@ -13,11 +13,6 @@
       "@type": "rdfs:Class",
       "rdfs:comment": "TBD",
       "rdfs:label": "CohortsToTags",
-      "rdfs:subClassOf": [
-        {
-          "@id": "bts:Thing"
-        }
-      ],
       "schema:isPartOf": {
         "@id": "http://schema.biothings.io"
       },
