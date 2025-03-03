@@ -22,8 +22,11 @@
         "@id": "http://schema.biothings.io"
       },
       "sms:displayName": "cohorts_to_tags",
-      "sms:required": "sms:true",
+      "sms:required": "sms:false",
       "sms:requiresComponent": [
+        {
+          "@id": "bts:Cohorts"
+        },
         {
           "@id": "bts:Tags"
         }
