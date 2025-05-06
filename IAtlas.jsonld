@@ -3338,9 +3338,6 @@
         },
         {
           "@id": "bts:CohortsToSamples"
-        },
-        {
-          "@id": "bts:CohortsToTags"
         }
       ],
       "schema:isPartOf": {
